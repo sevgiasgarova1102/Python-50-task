@@ -1,0 +1,6 @@
+task 15
+a=int(input("yaşınızı daxil edin: "))
+if a>=18:
+    print("Səs verə bilərsiniz")
+else:
+    print("Çox gəncsiniz")
