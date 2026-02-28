@@ -1,0 +1,11 @@
+task 16
+a = int(input("1-ci ədədi daxil edin: "))
+b = int(input("2-ci ədədi daxil edin: "))
+c = int(input("3-cü ədədi daxil edin: "))
+
+if a > b and a > c:
+    print("Ən böyük ədəd:", a)
+elif b > a and b > c:
+    print("Ən böyük ədəd:", b)
+else:
+    print("Ən böyük ədəd:", c)
