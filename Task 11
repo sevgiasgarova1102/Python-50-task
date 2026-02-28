@@ -1,0 +1,6 @@
+task 11 (tək və cüt yoxlama)
+a=int(input("ədədi daxil et: "))
+if a%2==0:
+    print("even")
+else: 
+    print("odd")
