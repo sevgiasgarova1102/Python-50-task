@@ -1,0 +1,8 @@
+task 14
+a=int(input("ədədi daxil et: "))
+if a>0:
+    print("ədəd müsbətdir")
+elif a<0:
+    print("ədəd mənfidir")
+else:
+    print("ədəd sıfırdır")
