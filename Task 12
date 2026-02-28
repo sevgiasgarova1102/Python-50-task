@@ -1,0 +1,6 @@
+task 12
+bal=int(input("balı daxil et: "))
+if bal>=60:
+    print("Pass")
+else: 
+    print("Fail")
