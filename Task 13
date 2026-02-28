@@ -1,0 +1,12 @@
+task 13
+bal=int(input("balı daxil et: "))
+if bal>90:
+    print("A")
+elif bal>80:
+    print("B")
+elif bal>70:
+    print("C")
+elif bal>60:
+    print("D")
+else:
+    print("F")
