@@ -1,0 +1,10 @@
+task 17
+a=int(input("Fəsil nömrəsini daxil edin(1-12): "))
+if a>=3 and a<=5:
+    print("Yaz")
+elif a>=6 and a<=8:
+    print("Yay")
+elif a>=9 and a<=11:
+    print("Payız")
+else: 
+    print("Qış")
