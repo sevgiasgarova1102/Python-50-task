@@ -1,0 +1,8 @@
+task 18
+a=int(input("yaşınızı daxil edin: "))
+if a>=18:
+    print("Böyüklər üçün 15$")
+elif a>=13 and a<=17:
+    print("Yeniyetmələr üçün 10$")
+else:
+    print("Uşaqlar üçün 7$")
