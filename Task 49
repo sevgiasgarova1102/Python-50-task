@@ -1,0 +1,9 @@
+task 49
+for i in range(5):
+    ad = input("Ad: ")
+    bal = int(input("Bal: "))
+    
+    if bal >= 50:
+        print(ad, "- Keçdi")
+    else:
+        print(ad, "- Kəsildi")
