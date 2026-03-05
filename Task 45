@@ -1,0 +1,10 @@
+task 45
+n = int(input("Say: "))
+
+a, b = 0, 1
+say = 0
+
+while say < n:
+    print(a)
+    a, b = b, a + b
+    say = say + 1
