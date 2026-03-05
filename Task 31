@@ -1,0 +1,8 @@
+task 31
+n = int(input("N ədədini daxil edin: "))
+cem = 0
+
+for i in range(1, n + 1):
+    cem = cem + i
+
+print("Cəmi:", cem)
