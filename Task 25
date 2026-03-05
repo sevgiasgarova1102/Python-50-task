@@ -1,0 +1,9 @@
+task 25
+boy = int(input("Boyunuzu daxil edin: "))
+yas = int(input("Yaşınızı daxil edin: "))
+valideyn = input("Valideyn var? (he/yox): ")
+
+if boy >= 120 and (yas >= 18 or valideyn == "he"):
+    print("Giriş icazəli")
+else:
+    print("Giriş qadağan")
