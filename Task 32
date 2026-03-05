@@ -1,0 +1,5 @@
+task 32
+n = int(input("Hansı ədəddən başlayaq? "))
+
+for i in range(n, -1, -1):
+    print(i)
