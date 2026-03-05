@@ -1,0 +1,15 @@
+task 41
+import random
+
+gizli_eded = random.randint(1, 100)
+texmin = 0
+
+while texmin != gizli_eded:
+    texmin = int(input("1-100 arası bir ədəd tapın: "))
+    
+    if texmin < gizli_eded:
+        print("Daha yuxarı!")
+    elif texmin > gizli_eded:
+        print("Daha aşağı!")
+    else:
+        print("Təbriklər! Tapdınız.")
