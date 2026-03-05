@@ -1,0 +1,9 @@
+task 42
+cem = 0
+eded = 1
+
+while eded != 0:
+    eded = int(input("Ədəd: "))
+    cem = cem + eded
+
+print("Cəm:", cem)
