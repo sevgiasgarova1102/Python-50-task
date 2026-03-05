@@ -1,0 +1,11 @@
+task 27
+mebleg = float(input("Məbləği yazın: "))
+
+if mebleg > 100:
+    print("Çatdırılma pulsuzdur")
+else:
+    uzv = input("Üzvsünüz? (he/yox): ")
+    if uzv == "he":
+        print("Çatdırılma: 3$")
+    else:
+        print("Çatdırılma: 7$")
