@@ -1,0 +1,10 @@
+task 46
+parol = ""
+
+while len(parol) < 8:
+    parol = input("Ən az 8 simvoldan ibarət parol yazın: ")
+    
+    if len(parol) < 8:
+        print("Çox qısadır!")
+
+print("Parol qəbul edildi.")
