@@ -1,0 +1,12 @@
+task 26
+yas = int(input("Yaş: "))
+ixtisas = input("İxtisas: ")
+tecrube = int(input("Təcrübə (il): "))
+
+if 22 <= yas <= 45:
+    if ixtisas == "CS" or tecrube >= 5:
+        print("Qəbul olundunuz")
+    else:
+        print("Tələblər ödənmir")
+else:
+    print("Yaş uyğun deyil")
