@@ -1,0 +1,26 @@
+task 50
+xal = 0
+
+
+s1 = input("1. 10 + 5 neçədir? ")
+if s1 == "15":
+    xal = xal + 1
+
+s2 = input("2. Azərbaycanın paytaxtı haradır? ")
+if s2 == "Baki":
+    xal = xal + 1
+
+s3 = input("3. Bir həftə neçə gündür? ")
+if s3 == "7":
+    xal = xal + 1
+
+s4 = input("4. Su neçə dərəcədə qaynayır? ")
+if s4 == "100":
+    xal = xal + 1
+
+s5 = input("5. 20 + 2 neçədir?")
+if s5 == "22":
+    xal = xal + 1
+
+print("Oyun bitdi!")
+print("Sizin topladığınız xal:", xal)
