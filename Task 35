@@ -1,0 +1,8 @@
+task 35
+n = int(input("Ədəd daxil edin: "))
+faktorial = 1
+
+for i in range(1, n + 1):
+    faktorial = faktorial * i
+
+print(faktorial)
