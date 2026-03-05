@@ -1,0 +1,13 @@
+task 21
+il = int(input("İli daxil edin: "))
+
+if il % 4 == 0:
+    if il % 100 == 0:
+        if il % 400 == 0:
+            print(il, "artıq ildir.")
+        else:
+            print(il, "artıq il deyil.")
+    else:
+        print(il, "artıq ildir.")
+else:
+    print(il, "artıq il deyil.")
