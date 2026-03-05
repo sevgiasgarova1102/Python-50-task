@@ -1,0 +1,8 @@
+task 36
+eded = input("Çoxrəqəmli bir ədəd daxil edin: ")
+cem = 0
+
+for reqem in eded:
+    cem = cem + int(reqem)
+
+print("Rəqəmlərin cəmi:", cem)
