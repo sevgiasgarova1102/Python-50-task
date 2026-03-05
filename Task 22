@@ -1,0 +1,14 @@
+task 22
+ceki = float(input("Çəkinizi daxil edin: "))
+boy = float(input("Boyunuzu daxil edin (məsələn 1.70): "))
+
+bmi = ceki / (boy * boy)
+
+if bmi < 18.5:
+    print("BMI:", bmi, "- Çəki az")
+elif bmi <= 24.9:
+    print("BMI:", bmi, "- Normal")
+elif bmi <= 29.9:
+    print("BMI:", bmi, "- Artıq çəki")
+else:
+    print("BMI:", bmi, "- Piylənmə")
