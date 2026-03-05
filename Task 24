@@ -1,0 +1,9 @@
+task 24
+temp = int(input("Temperaturu daxil edin: "))
+
+if temp > 30:
+    print("Kondisioneri işə salın")
+elif 20 <= temp and temp <= 30:
+    print("Rahat temperatur")
+else:
+    print("Qızdırıcını işə salın")
