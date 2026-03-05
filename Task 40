@@ -1,0 +1,14 @@
+task 40
+haqq = 3
+
+while haqq > 0:
+    parol = input("Parol: ")
+    if parol == "123":
+        print("Daxil oldunuz")
+        break
+    else:
+        haqq -= 1
+        print("Səhvdir. Qaldı:", haqq)
+
+if haqq == 0:
+    print("Bloklandınız")
