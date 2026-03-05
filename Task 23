@@ -1,0 +1,11 @@
+task 23
+gelir = int(input("İllik gəlirinizi daxil edin: "))
+bal = int(input("Kredit balınızı daxil edin: "))
+
+if gelir > 50000:
+    if bal > 700:
+        print("Təbriklər, kredit təsdiqləndi!")
+    else:
+        print("Kredit rədd edildi: Kredit balınız çox aşağıdır.")
+else:
+    print("Kredit rədd edildi: Gəliriniz kifayət deyil.")
