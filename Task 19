@@ -1,0 +1,12 @@
+task 19
+name="Sevgi"
+sifre="Sevgi2008"
+name1=str(input())
+sifre1=input()
+if name1==name:
+    if sifre1==sifre:
+        print("Giriş icazə verildi")
+    else:
+        print("Şifrə yanlışdır")
+else:
+    print("Giriş rədd edildi")
